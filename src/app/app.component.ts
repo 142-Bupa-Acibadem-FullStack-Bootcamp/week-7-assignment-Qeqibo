@@ -7,13 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   //title = 'CurrencyExchange';
-  currencies = ['TRY', 'EUR', 'USD'];
+  currencies = ['TRY', 'EUR', 'USD','GBP'];
   inCurr = "TRY";
+  outCurr = "EUR";
   outCurr = "EUR";
   inrToForeignRates = {
     TRY: 1,
     EUR: 0.064,
-    USD: 0.074
+    USD: 0.074,
+    GBP:0.055
   };
   inputValue = 10;
   
